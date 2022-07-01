@@ -1,0 +1,71 @@
+body{
+margin: 0;
+position: relative;
+}
+.bio{
+background-color:grey;
+width:200px;
+height:100px;
+position: absolute;
+
+}
+.photo{
+background-color:orange;
+width:200px;
+height:100px;
+position: absolute;
+left:400px;
+
+}
+.education{
+background-color:darkgrey;
+height:200px;
+width:200px;
+position: absolute;
+left: 200px;
+top:100px;
+
+
+
+}
+.hobbies{
+background-color:green;
+width:200px;
+height:200px;
+position: absolute;
+top:300px;
+}
+.contact{
+width:200px;
+height:200px;
+background-color:pink;
+position: absolute;
+top:300px;
+left:400px;
+}
+p{
+position:relative;
+text-align:center;
+top:60px;
+}	
+.bio:hover{
+background-color:pink;
+}
+.photo:hover{
+background-color:gold;
+}
+.education:hover{
+background-color:black;
+}
+.hobbies:hover{
+background-color:brown;
+}
+.contact:hover{
+background-color:red;
+}
+table,th,td{
+border:1px solid;
+}
+
+	
+	
